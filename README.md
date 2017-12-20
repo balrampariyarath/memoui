@@ -24,6 +24,10 @@ npm run dev
 
 ## Screenshots
 
+![Add Memo](https://raw.githubusercontent.com/balrampariyarath/memoui/master/screenshots/AddMemo.png "Add Memo")
+![List All Memo](https://raw.githubusercontent.com/balrampariyarath/memoui/master/screenshots/ListAllMemo.png "List All Memos")
+![Search](https://raw.githubusercontent.com/balrampariyarath/memoui/master/screenshots/SearchMemo.png "Search Memo")
+
 ## TODO
 
 * Set CSRF cookie
