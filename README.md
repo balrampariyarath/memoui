@@ -21,3 +21,9 @@ npm run dev
 
 * Home Page - http://localhost:8080/ - Display All Memos
 * Add Memo - http://localhost:8080/addMemo - Add New Memo
+
+## Screenshots
+
+## TODO
+
+* Set CSRF cookie
