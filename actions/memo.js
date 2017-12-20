@@ -16,17 +16,17 @@ export function fetchAllMemos() {
     };
 }
 
-export function addMemo() {
+export function addNewMemo(memo) {
     return dispatch => {
         const values = {
-            desc: desc,
-            image: image,
-            date: date,
-            person: person,
+            desc: memo.description,
+            image: memo.uploadNotes,
+            date: memo.date,
+            person: memo.with,
         };
         console.log(values);
         dispatch({ type: 'ADDING_MEMO' });
-        fetch('http://localhost:8000/api/memos/history/?ordering=-date', {
+        fetch('http://localhost:8000/api/memos/add', {
             method: 'POST',
             body: JSON.stringify(values),
         })
